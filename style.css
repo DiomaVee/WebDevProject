@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://idsb.tmgrup.com.tr/ly/uploads/images/2025/03/12/372657.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.logged {
+    background: rgba(238, 176, 212, 0.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.lform { 
+    text-align: center;
+    width: 350px;
+    margin: 8% auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0,0.23);
+    border-radius: 15px;
+}
+
+.rform { 
+    text-align: center;
+    width: 350px;
+    margin: 8% auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0,0.23);
+    border-radius: 15px;
+}
+
+.about { 
+    color: white;
+    text-align: center;
+    width: 350px;
+    margin: 8% auto;
+    padding: 10px;
+    background-color: rgba(252, 109, 192, 0.7);
+    border-radius: 15px;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.heading h1{
+    color: rgba(0, 0, 0,0.9);
+    font-size: 45px;
+
+}
+
+ul {
+    list-style-type: none;
+    background-color: rgba(0, 0, 0,0.6);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+}
+
+
+ul li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: rgba(0, 0, 0,0.8);
+}
+
+.button {
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.menu-cards {
+    background-color: rgba(0, 0, 0,0.23);
+    border-radius: 10px;
+    padding:15px;
+}
+
+.menu-container img {
+    border-radius: 10px;
+}
+
+.description {
+    line-height: 1.4;
+    max-height: 40px;
+    overflow: hidden;
+}
